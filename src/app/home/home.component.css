@@ -77,11 +77,11 @@ header a:hover {
     max-height: 20%;
 }
  .image {
-    width: 10px;
+    width: 90px;
 } 
-#javaScriptImage {
+/* #javaScriptImage {
     width: 10px;
-}
+} */
 #about {
     background-color: #031f38;
 }
