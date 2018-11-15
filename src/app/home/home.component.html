@@ -1,0 +1,133 @@
+<!-- <mat-toolbar id="navBar">
+    <span>Ryan Gabbert</span>
+    <button mat-button class="navBtn" id="homeBtn">Home</button>
+    <button mat-button class="navBtn">Work</button>
+    <button mat-button class="navBtn">About</button>
+    <button mat-button class="navBtn">Skills</button>
+    <button mat-button class="navBtn">Contact</button>
+</mat-toolbar>
+<app-showcase></app-showcase>
+<app-bio></app-bio>
+<app-work></app-work>
+<app-skills></app-skills>
+<app-contact></app-contact> -->
+ <div id="body">
+<header>
+    <div class="container">
+        <div id="navBar">
+            <h1><span class="highlight">Ryan Gabbert</span></h1>
+        </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="https://drive.google.com/file/d/1SYCv5gjUMo1b2sOVgDp-6vGVfghRXRjy/view?usp=sharing">View My Resume</a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ryan-gabbert-a2a7a3144/">LinkedIn</a>
+                    </li>
+                    <li><a href="https://github.com/ryangabbert?tab=repositories">GitHub</a></li>
+                    <!-- <li><a href="">Work</a></li>
+                    <li><a href="">Contact</a></li> -->
+                </ul>
+            </nav>
+    </div>
+</header>
+<section id="showCase">
+    <div class="container">
+        <h1>Junior Software Engineer</h1>
+        <p>Hi, my name is Ryan Gabbert and I am a junor software engineer based in Carmel, IN.</p>
+    </div>
+</section>
+<section id="skills">
+        <h1>My Skills...so far</h1>
+    <div class="container">
+        <div class="cards">
+            <img class="image" src="../../assets/512px-JavaScript-logo.png" /> 
+            <h3>JavaScript, HTML, CSS</h3>
+        </div>
+        <div class="cards">
+                <img src="../../assets/angular.png"  id="angularImage"/> 
+                <h3>Angular</h3>
+            </div>
+            <div class="cards">
+                    <img src="../../assets/512px-React-icon.svg.png"  id="reactImage"/> 
+                    <h3>React</h3>
+                </div>
+                <div class="cards" id="node">
+                        <img src="../../assets/512px-Node.js_logo_2015.svg.png" id="nodeImage"/> 
+                        <h3>Node.JS, SQL</h3>
+                    </div>
+                    <div class="cards" id="material">
+                            <img src="../../assets/angular.png"  id="angularImage"/> 
+                            <h3>Angular Material</h3>
+                        </div>
+                        <div class="cards" id="bootstrap">
+                                <img src="../../assets/bootstrap-solid.svg" id="bootstrapImage"/> 
+                                <h3>Bootstrap</h3>
+                            </div>
+    </div>
+</section>
+<section id="about">
+        <h1 id="aboutH1">About Me</h1>
+    <div class="container">
+        <img src="../../assets/RGabbert - bus portrait - white.jpg" id="bioImage"/>
+        <p id="textBox">My name is Ryan Gabbert. I am a junior software developer. I am a recent graduate of Eleven Fifty Academy, and have been working for Indianapolis based start-up Deck LLC. I have been a front-end developer for Deck since August of 2018. In my spare time I enjoy reading, hiking, and playing soccer.</p>
+    </div>
+</section>
+<section id="work">
+    <h1>My Work</h1>
+    <div class="container">
+        <video width="320" height="240" controls>
+  <source src="../../assets/Deck overview.mov" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+    <p id="workText">
+       This is a video walkthrough showcasing the website that I have worked on and maintained since graduating from Eleven Fifty. Unfortuneatly I can not provide actual access to the site as it is a membership only site. However I believe this video can demonstrate the design and functionality of the site. It was created using the framework Angular. 
+    </p>
+    </div>
+</section>
+<section id="contact">
+        <h1>Let's Work Together</h1>
+    <div class="container">
+            <form action="https://formspree.io/rgabb08@gmail.com" method="POST" id="contactForm">
+                <div class="control-group">
+                    <div class="form-group">
+                        <label>Name: </label>
+                        <input type="text"class="form-control" placeholder="Your Name"id="name" required="" data-validation-required-message="Please enter your name" name="name">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group">
+                        <label id="emailLabel">Email Address: </label>
+                        <input type="email" class="form-control" placeholder="Your Email" id="email" name="_replyto">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group">
+                        <label id="phoneLabel">Phone Number: </label>
+                        <input class="form-control" id="phone" type="tel" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="control-group">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
+                                name="message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                            <div id="success"></div>
+                            <button mat-button type="submit" class="btn btn-lg btn-black" id="contactBtn">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
+                        </div>
+              </form>
+    </div>
+</section>
+<footer>
+    <p>
+        Phone: (317) 379 1587
+        Email: rgabb08@gmail.com
+    </p>
+</footer>
+</div>

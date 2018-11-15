@@ -1,0 +1,201 @@
+/*Global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+/* header */
+header {
+    background-color: #031f38;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    /* border-bottom: green 3px solid; */
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #navBar {
+    float: left;
+}
+
+header #navBar h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    /* color: #a8491d; */
+    font-weight: bold; 
+}
+header a:hover {
+      color: #a8491d;
+    font-weight: bold;
+}
+/* Showcase */
+#showCase {
+    min-height: 400px;
+    background:url('../../assets/pexels-photo-129208.jpeg') no-repeat 0 -300px;
+    text-align: center;
+    color: white;
+}
+#showCase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showCase p{
+    font-size: 20px;
+}
+/* Skills */
+#skills .cards{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    height: 20%;
+}
+#skills {
+    max-height: 20%;
+}
+.image {
+    width: 90px;
+}
+#about {
+    background-color: #031f38;
+}
+#aboutH1{
+    color: white;
+    margin-bottom: 0;
+   position: relative;
+   top: 1em; 
+   left: 9em;
+}
+#bioImage {
+    width: 200px;
+    position: relative;
+    bottom: 3px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black
+}
+#textBox {
+    float: right;
+    width: 65%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+     right: 1em; 
+     top: 1em; 
+
+}
+#angularImage {
+    width: 90px;
+    position: relative;
+    /* bottom: 2em;
+    left: 2em;
+    margin-bottom: 0em; */
+}
+
+#reactImage {
+    width: 125px;
+    position: relative;
+    /* bottom: 2em; */
+}
+#nodeImage {
+    width: 100px;
+}
+#node {
+    position: relative;
+    top: 4em;
+    margin-top: 2em;
+}
+#work{
+   text-align: center;
+}
+#contact {
+    background-color: #031f38;
+    color: white;
+}
+#contactForm {
+   text-align: center;
+}
+#email {
+    margin-top: 1em;
+    position: relative;
+    right: 19px;
+}
+#name {
+    position: relative;
+    left: 11px;
+}
+#phone {
+    margin-top: 1em;
+    position: relative;
+    right: 2em;
+    margin-bottom: 2em;
+}
+#emailLabel {
+    position: relative;
+    right: 2em;
+}
+#phoneLabel {
+    position: relative;
+    right: 2em;
+}
+#message {
+    position: relative;
+    left: 3em;
+    width: 200px;
+}
+footer{
+   text-align: center;
+}
+#workText {
+    font-size: 20px; 
+}
+#contactBtn {
+    position: relative;
+    left: 2em;
+    background-color: #a8491d;
+    margin-bottom: 1em;
+}
+#contactForm {
+    position: relative;
+    right: 2em;
+}
+#material {
+position: relative;
+bottom: 8em;
+/* margin-top: 2em; */
+} 
+#bootstrap {
+    position: relative;
+    bottom: 8em;
+    /* margin-top: 2em;
+    margin-bottom: 3em; */
+}
+#bootstrapImage {
+    width: 90px;
+}

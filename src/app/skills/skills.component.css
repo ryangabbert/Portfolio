@@ -1,0 +1,59 @@
+.container {
+    background-color: lightgray;
+    margin-top: 1em;
+}
+.skillExamples {
+    width: 20em;
+    height: 20em;
+    display: inline-block;
+    position: relative;
+    left: 10em;
+    top: 2em;
+    margin-bottom: 3em;
+
+}
+#exampleTwo {
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+#exampleThree {
+    margin-left: 1em; 
+    position: relative;
+    /* top: 30em;
+    left: -8em; */
+}
+#title {
+    position: relative;
+    left: 35em;
+    top: 1em;
+    margin: auto;
+    /* margin-bottom: 1em; */
+}
+.image {
+    height: 60%;
+    width: 80%;
+    position: relative;
+    left: 3em;
+}
+#angularImage {
+    height: 70%;
+    width: 90%;
+    position: relative;
+    bottom: 2em;
+    left: 2em;
+    margin-bottom: 0em;
+}
+#angularDescription {
+    position: relative;
+    bottom: 2em;
+}
+#reactImage {
+    /* height: 70%;
+    width: 80%; */
+    position: relative;
+    bottom: 2em;
+}
+#reactDescription {
+    position: relative;
+    bottom: 4em;
+}

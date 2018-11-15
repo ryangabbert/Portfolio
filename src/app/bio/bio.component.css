@@ -1,0 +1,46 @@
+#bioContainer {
+    background-color: lightgray;
+    margin-top: 1em;
+}
+#textBox {
+    float: right;
+    width: 75%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    right: 3em;
+    top: 4em;
+
+}
+.image {
+    height: 15em;
+    width: 15em;
+    position: relative;
+    top: 1em;
+    left: 3em;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black
+} 
+.buttons{
+    position: relative;
+    left: 35em;
+    bottom: 3em;
+    color: white;
+}
+#workBtn {
+    background-color: blue;
+    margin-right: 2em;
+}
+#contactBtn {
+    background-color: blue;
+    margin-right: 2em;
+}
+#resumeBtn {
+    background-color: blue;
+    margin-right: 2em;
+}
+#linkedinBtn {
+    background-color: blue;
+}
