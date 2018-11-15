@@ -80,9 +80,6 @@ header a:hover {
 .image {
     width: 90px;
 }
-#javaScriptImage {
-    background-image:url('../../assets/512px-JavaScript-logo.png')
-}
 #about {
     background-color: #031f38;
 }
@@ -114,7 +111,6 @@ header a:hover {
 
 }
 #angularImage {
-    background-image: url('../../assets/angular.png');
     width: 90px;
     position: relative;
     /* bottom: 2em;
