@@ -76,8 +76,11 @@ header a:hover {
 #skills {
     max-height: 20%;
 }
-.image {
+/* .image {
     width: 90px;
+} */
+#javaScriptImage {
+    width: 10px;
 }
 #about {
     background-color: #031f38;
