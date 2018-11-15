@@ -76,9 +76,9 @@ header a:hover {
 #skills {
     max-height: 20%;
 }
-/* .image {
-    width: 90px;
-} */
+ .image {
+    width: 10px;
+} 
 #javaScriptImage {
     width: 10px;
 }
