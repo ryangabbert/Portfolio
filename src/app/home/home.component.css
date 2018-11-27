@@ -192,11 +192,9 @@ position: relative;
 bottom: 8em;
 /* margin-top: 2em; */
 } 
-#bootstrap {
+#bootStrap {
     position: relative;
     bottom: 8em;
-    /* margin-top: 2em;
-    margin-bottom: 3em; */
 }
 #bootstrapImage {
     width: 90px;
@@ -273,6 +271,18 @@ bottom: 8em;
     #showcaseText {
         position: relative;
         bottom: 5em;
-        font-weight: bold; 
+        /* font-weight: bold;  */
+    }
+    #nameBox {
+        position: relative;
+        left: 2em;
+    }
+    #emailBox {
+        position: relative;
+        left: 2em;
+    }
+    #phoneBox {
+        position: relative;
+        left: 2em;
     }
 }
