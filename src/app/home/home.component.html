@@ -1,21 +1,8 @@
-<!-- <mat-toolbar id="navBar">
-    <span>Ryan Gabbert</span>
-    <button mat-button class="navBtn" id="homeBtn">Home</button>
-    <button mat-button class="navBtn">Work</button>
-    <button mat-button class="navBtn">About</button>
-    <button mat-button class="navBtn">Skills</button>
-    <button mat-button class="navBtn">Contact</button>
-</mat-toolbar>
-<app-showcase></app-showcase>
-<app-bio></app-bio>
-<app-work></app-work>
-<app-skills></app-skills>
-<app-contact></app-contact> -->
  <div id="body">
 <header>
     <div class="container">
         <div id="navBar">
-            <h1><span class="highlight">Ryan Gabbert</span></h1>
+            <h1 id="myName"><span class="highlight">Ryan Gabbert</span></h1>
         </div>
             <nav>
                 <ul>
@@ -23,31 +10,29 @@
                     <li>
                         <a href="https://www.linkedin.com/in/ryan-gabbert-a2a7a3144/">LinkedIn</a>
                     </li>
-                    <li><a href="https://github.com/ryangabbert?tab=repositories">GitHub</a></li>
-                    <!-- <li><a href="">Work</a></li>
-                    <li><a href="">Contact</a></li> -->
+                    <!-- <li><a href="https://github.com/ryangabbert?tab=repositories">GitHub</a></li> -->
                 </ul>
             </nav>
     </div>
 </header>
 <section id="showCase">
-    <div class="container">
+    <div class="container" id="showcaseText">
         <h1>Junior Software Engineer</h1>
-        <p>Hi, my name is Ryan Gabbert and I am a junor software engineer based in Carmel, IN.</p>
+        <p id="bottomText">Hi, my name is Ryan Gabbert and I am a junor software engineer based in Carmel, IN.</p>
     </div>
 </section>
 <section id="skills">
-        <h1>My Skills...so far</h1>
+        <h1 id="skillsTitle">My Skills...so far</h1>
     <div class="container">
-        <div class="cards">
+        <div class="cards" id="javaScript">
             <img class="image" src="assets/512px-JavaScript-logo.png" id="javaScriptImage"/> 
             <h3>JavaScript, HTMLs, CSS</h3>
         </div>
-        <div class="cards">
+        <div class="cards" id="angular">
                 <img  src="assets/angular.png"  id="angularImage"/> 
                 <h3>Angular</h3>
             </div>
-            <div class="cards">
+            <div class="cards" id="react">
                     <img  src="assets/512px-React-icon.svg.png"  id="reactImage"/> 
                     <h3>React</h3>
                 </div>
@@ -59,7 +44,7 @@
                             <img  src="assets/angular.png"  id="angularImage"/> 
                             <h3>Angular Material</h3>
                         </div>
-                        <div class="cards" id="bootstrap">
+                        <div class="cards" id="bootStrap">
                                 <img  src="assets/bootstrap-solid.svg" id="bootstrapImage"/> 
                                 <h3>Bootstrap</h3>
                             </div>
